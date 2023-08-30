@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel = "stylesheet" href = "/page.css">
+
+    <title>7</title>
+
+  </head>
+
+  <body>
+
+    <div>
+      <img src="/page1/public/assets/peixe.jpg">
+
+      <p>iisiiiisiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiododdodddodddodddddddddddoiiioiiiiiiiiiiiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddo</p>
+
+
+
+      <input type="text" id="answer">
+
+      <button type="button" id="botao" onclick="myFunction()">Enviar</button>
+
+      <p id="demo">
+    </div>
+
+    <script>
+      function myFunction(){
+        let x = document.getElementById("answer").value;
+        let text;
+        if(x != "outrolado"){
+          text = "Senha incorreta";
+        }
+        else{
+            window.location.href = "page8.html"
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 100px;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+}

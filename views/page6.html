@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel = "stylesheet" href = "/page1/public/css/page2.css">
+
+    <title>6</title>
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <p>
+          Dm Bb F <br>
+          V03 P04 L01 <br><br>
+
+          Dm Bb F <br>
+          V02 P03 L04 <br><br>
+
+          Dm Bb F <br>
+          V06 P02 L04 <br><br>
+
+          Dm Bb F <br>
+          V19 P06 L01 <br><br>
+
+          Dm Bb F <br>
+          V02 P05 L01 <br><br>
+
+          Dm Bb F <br>
+          V09 P01 L01 <br><br>
+
+          Dm Bb F <br>
+          V14 P08 L01 <br><br>
+
+          Dm Bb F <br>
+          V03 P06 L03 <br><br>
+
+          Dm Bb F <br>
+          V11 P02 L04 <br><br>
+
+          Dm Bb F<br>
+          V08 P07 L04 <br><br>
+
+          F Bb F <br>
+          V17 P01 L01 <br><br>
+
+          Dm Bb F<br>
+          V23 P02 L02 <br><br>
+
+          Dm Bb F<br>
+          V23 P09 L05 <br><br>
+          <br>
+
+
+      </p>
+
+      <input type="text" id="answer">
+
+      <button type="button" id="botao" onclick="myFunction()">Enviar</button>
+
+      <p id="demo">
+    </div>
+
+    <script>
+      function myFunction(){
+        let x = document.getElementById("answer").value;
+        let text;
+        if(x != "fuldkommenhed"){
+          text = "Senha incorreta";
+        }
+        else{
+            window.location.href = "page7.html"
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+    
+  </body>
+</html>
+

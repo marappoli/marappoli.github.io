@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel = "stylesheet" href = "/page1/public/css/page2.css">
+
+    <title>3</title>
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <p>shtyvuhyhw</p>
+
+      <input type="text" id="answer">
+
+      <button type="button" id="botao" onclick="myFunction()">Enviar</button>
+
+      <p id="demo">
+    </div>
+
+    <script>
+      function myFunction(){
+        let x = document.getElementById("answer").value;
+        let text;
+        if(x != "paranormal"){
+          text = "Senha incorreta";
+        }
+        else{
+            window.location.href = "page4.html"
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+    </script>
+    
+  </body>
+</html>
+
